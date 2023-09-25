@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.banner{
+    background-image:(url('https://i.ibb.co/LtY6yVm/pexels-fauxels-3184398.jpg'));
+}
