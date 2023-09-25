@@ -8,11 +8,13 @@ const MainLayout = () => {
     return (
         <div>
 
-           <div className="w-[1300px] mx-auto">
+           <div className="max-w-[1300px] mx-auto">
             <Navbar></Navbar>
             </div> 
+            <div className="py-6 max-w-[1300px] mx-auto">
             <Outlet></Outlet>
-        </div>
+            </div>
+            </div>
     );
 };
 

@@ -1,0 +1,134 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/TRCsYLC/Health.png",
+      "category": "Health",
+      "title": "Clean Water for Children",
+      "description": "Providing clean and safe drinking water to underprivileged children in need.",
+      "donate": 290,
+      "background_color": "#d6ebdf",
+      "button_background": "#b5e3d8",
+      "text_color": "#0052FF"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/9Wzh52X/Education.png",
+      "category": "Education",
+      "title": "Good Education",
+      "description": "Supporting quality education initiatives to empower the next generation.",
+      "donate": 290,
+      "background_color": "#FF444A26",
+      "button_background": "#FF444A33",
+      "text_color": "#FF444A"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/sHgKKS3/Clothing.png",
+      "category": "Clothing",
+      "title": "Used Clothing Drive",
+      "description": "Collecting and distributing used clothing to those facing harsh weather conditions.",
+      "donate": 290,
+      "background_color": "#79C23F26",
+      "button_background": "#79C23333",
+      "text_color": "#79C23F"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/ZYMKSrL/Food.png",
+      "category": "Food",
+      "title": "Better Food For Everyone",
+      "description": "Ensuring access to nutritious and affordable food for all communities.",
+      "donate": 290,
+      "background_color": "#F8714726",
+      "button_background": "#F8714733",
+      "text_color": "#F87147"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/TRCsYLC/Health.png",
+      "category": "Health",
+      "title": "Clean Water for Children",
+      "description": "Providing clean and safe drinking water to underprivileged children in need.",
+      "donate": 290,
+      "background_color": "#d6ebdf",
+      "button_background": "#b5e3d8",
+      "text_color": "#0052FF"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/9Wzh52X/Education.png",
+      "category": "Education",
+      "title": "Good Education",
+      "description": "Supporting quality education initiatives to empower the next generation.",
+      "donate": 290,
+      "background_color": "#FF444A26",
+      "button_background": "#FF444A33",
+      "text_color": "#FF444A"
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/sHgKKS3/Clothing.png",
+      "category": "Clothing",
+      "title": "Used Clothing Drive",
+      "description": "Collecting and distributing used clothing to those facing harsh weather conditions.",
+      "donate": 290,
+      "background_color": "#79C23F26",
+      "button_background": "#79C23333",
+      "text_color": "#79C23F"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/ZYMKSrL/Food.png",
+      "category": "Food",
+      "title": "Better Food For Everyone",
+      "description": "Ensuring access to nutritious and affordable food for all communities.",
+      "donate": 290,
+      "background_color": "#F8714726",
+      "button_background": "#F8714733",
+      "text_color": "#F87147"
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/TRCsYLC/Health.png",
+      "category": "Health",
+      "title": "Clean Water for Children",
+      "description": "Providing clean and safe drinking water to underprivileged children in need.",
+      "donate": 290,
+      "background_color": "#d6ebdf",
+      "button_background": "#b5e3d8",
+      "text_color": "#0052FF"
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/9Wzh52X/Education.png",
+      "category": "Education",
+      "title": "Good Education",
+      "description": "Supporting quality education initiatives to empower the next generation.",
+      "donate": 290,
+      "background_color": "#FF444A26",
+      "button_background": "#FF444A33",
+      "text_color": "#FF444A"
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/sHgKKS3/Clothing.png",
+      "category": "Clothing",
+      "title": "Used Clothing Drive",
+      "description": "Collecting and distributing used clothing to those facing harsh weather conditions.",
+      "donate": 290,
+      "background_color": "#79C23F26",
+      "button_background": "#79C23333",
+      "text_color": "#79C23F"
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/ZYMKSrL/Food.png",
+      "category": "Food",
+      "title": "Better Food For Everyone",
+      "description": "Ensuring access to nutritious and affordable food for all communities.",
+      "donate": 290,
+      "background_color": "#F8714726",
+      "button_background": "#F8714733",
+      "text_color": "#F87147"
+    }
+  ]
