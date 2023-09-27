@@ -1,13 +1,26 @@
+/* eslint-disable no-unused-vars */
 
+import React from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 const Statistics = () => {
-    return (
-        <div>
-            <h2>This is our Statistics page</h2>
-            <p>Pie char will show hare</p>
-            
-        </div>
-    );
+  const [favourite, setFavourite] = useState([])
+
+  useEffect(()=>{
+const favouriteItems = JSON.parse(localStorage.getItem('favourite'))
+if(favouriteItems){
+  setFavourite(favouriteItems)
+}
+console.log(favourite);
+  },[]);
+
+
+  return (
+    <div>
+      
+    </div>
+  );
 };
 
 export default Statistics;

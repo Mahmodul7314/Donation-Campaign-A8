@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import CardData from "../CardData/CardData";
 
 
