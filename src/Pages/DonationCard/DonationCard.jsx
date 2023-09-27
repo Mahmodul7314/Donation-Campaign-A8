@@ -49,9 +49,9 @@ const DonationCard = ({ donationCard }) => {
     />
   </div>
 
-    <div className="" style={{backgroundColor:"#0B0B0B80" ,marginTop:"340px "  ,width:"749px", height:"100px", position:"absolute",marginLeft:"16px"} }>
+    <div className="bg-[#0B0B0B80] w-56 h-14 mt-16 absolute ml-4 " lg:style={{backgroundColor:"#0B0B0B80" ,marginTop:"340px "  ,width:"749px", height:"100px", position:"absolute",marginLeft:"16px"} }>
     <button onClick={handleDonateAdd}     style={{backgroundColor:text_color}}
-      className="select-none absolute flex justify-center items-center mt-10 ml-6 w-36 text-[#fff] font-semibold text-xl rounded-lg  py-3 px-6 text-center items-center font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+      className="select-none absolute flex justify-center items-center mt-4 lg:mt-10 ml-4   w-20 lg:w-36 text-[#fff] font-semibold text-xl rounded-lg py-2 lg:py-3 px-4 lg:px-6 text-center items-center font-sans text-xs font-normal lg:font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
       type="button"
       data-ripple-light="true"
     >

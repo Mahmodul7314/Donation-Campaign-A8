@@ -8,7 +8,7 @@ const CardData = ({cardData}) => {
     const {id,image,category,title,description,donate,background_color,button_background,text_color} = cardData
     return (
      
-        <NavLink to={`/donations/${id}`}  style={{backgroundColor:background_color}} className="relative flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        <NavLink to={`/donations/${id}`}  style={{backgroundColor:background_color}} className="relative flex w-full lg:max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
         <div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
           <img
             src={image}

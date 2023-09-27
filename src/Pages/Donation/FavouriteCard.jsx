@@ -18,18 +18,18 @@ const FavouriteCard = ({ favouriteItem }) => {
         </div>
         <div className="p-6">
           
-          <button style={{color:text_color,background:button_background}} className="text-lg font-medium px-4 py-2 mb-2 w-28 rounded-lg ">
+          <button style={{color:text_color,background:button_background}} className="lg:text-lg text-sm font-medium px-4 py-2 mb-2 w-24 lg:w-28 rounded-lg ">
            {category}
           </button>
-          
-          <h4 style={{color:"#0B0B0B"}} className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+
+          <h4 style={{color:"#0B0B0B"}} className="mb-2 block font-sans text-2xl lg:font-semibold font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
             {title}
           </h4>
           <p style={{color:text_color, textAlign:"left"}} className=" flex items-center mb-2  font-sans text-base font-semibold leading-relaxed text-gray-700 antialiased">
           Donate <BsCurrencyDollar></BsCurrencyDollar>{donate}
           </p>
           <a className="inline-block" href="#">
-           <NavLink to={"/"} style={{backgroundColor:text_color}} className="text-lg font-semibold text-[#fff] rounded-sm px-4 py-2 w-36"
+           <NavLink to={"/"} style={{backgroundColor:text_color}} className="text-lg font-normal lg:font-semibold text-[#fff] rounded-sm px-2 lg:px-4 py-1 lg:py-2 w-20 lg:w-36"
             //   className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             //   type="button"
             >

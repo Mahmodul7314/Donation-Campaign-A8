@@ -34,7 +34,7 @@ const Donation = () => {
         <div>
           
            { noFound && <p className="text-2xl font font-medium text-center text-gray-400">{noFound}</p> }
-          <div className="text-center mt-4 mb-4"> <button onClick={handleClear} className="bg-red-400  w-36 h-12 rounded-lg hover:bg-slate-300 text-white font-semibold">Clear All</button></div>
+          <div className="text-center mt-4 mb-4"> <button onClick={handleClear} className="bg-red-400 w-24 lg:w-36 h-6 lg:h-12 rounded-lg hover:bg-slate-300 text-white font-normal lg:font-semibold">Clear All</button></div>
           
            <div className="grid col-span-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {
@@ -43,8 +43,8 @@ const Donation = () => {
           }
         
            </div>
-          { showAll?<div className="text-center mt-8 mb-8 "><button onClick={()=>setShowAll(!showAll)} className="bg-yellow-600 w-36 h-12 rounded-lg hover:bg-slate-300 text-white font-semibold">See Less</button></div> 
-           : <div className="text-center mt-8 mb-8 "><button onClick={()=>setShowAll(!showAll)} className="bg-green-600 w-36 h-12 rounded-lg hover:bg-slate-300 text-white font-semibold">See All</button></div>
+          { showAll?<div className="text-center mt-8 mb-8 "><button onClick={()=>setShowAll(!showAll)} className="bg-yellow-600 lg:w-36 w-24 h-6 lg:h-12 rounded-lg hover:bg-slate-300 text-white font-normal lg:font-semibold">See Less</button></div> 
+           : <div className="text-center mt-8 mb-8 "><button onClick={()=>setShowAll(!showAll)} className="bg-green-600 lg:w-36 w-24 h-6 lg:h-12 rounded-lg hover:bg-slate-300 text-white font-normal lg:font-semibold">See All</button></div>
            }
 
 
